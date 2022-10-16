@@ -17,13 +17,19 @@
     "media-feature-colon-space-before": "never",
     "no-eol-whitespace": true,
     "selector-list-comma-newline-after": "always",
-    "block-opening-brace-space-before": "always",
-    "block-closing-brace-newline-before": "always-multi-line",
-    "block-opening-brace-space-after": "always-single-line",
-    "block-closing-brace-space-before": "always-single-line",
     "declaration-block-trailing-semicolon": "always",
     "declaration-block-semicolon-newline-after": "always",
     "declaration-colon-space-before": "never",
-    "declaration-colon-space-after": "always"
+    "declaration-colon-space-after": "always",
+    "value-list-comma-space-before": "never",
+    "value-list-comma-space-after": "always",
+    "number-leading-zero": "never",
+    "color-hex-case": "lower",
+    "selector-attribute-quotes": "always",
+    "declaration-block-no-shorthand-property-overrides": true,
+    "block-opening-brace-space-before": "always-multi-line",
+    "block-closing-brace-newline-before": "always-multi-line",
+    "block-opening-brace-space-after": "always-single-line",
+    "block-closing-brace-space-before": "always-single-line"
   }
 }
