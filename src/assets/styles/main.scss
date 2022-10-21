@@ -1,30 +1,18 @@
-/**
- * Use this file to import partials.
- * Do not include SCSS code in this file.
- */
+// 1. Settings
+@import "settings/colors";
+@import "settings/fonts";
+@import "settings/breakpoints";
 
-/**
- * Import variables
- */
+// 2. Tools
 
-@import "variables";
+// 3. Generic
+@import "generic/normalize";
 
-/**
- * Import npm dependencies
- * see: https://v2.parceljs.org/features/module-resolution/
- * see commented examples below
- */
+// 4. Elements
+@import "elements/elements";
 
-// @import "some-node-module";
-// @import "@some-company/some-node-module";
+// 5. Vendors
+@import "npm:@fortawesome/fontawesome-free/css/all.css";
 
-/**
- * Import layouts
- * It's a best practice to use a different partial for each page
- */
 
 @import "layouts/home";
-
-/**
- * Do NOT include anything else in this file!
- */
