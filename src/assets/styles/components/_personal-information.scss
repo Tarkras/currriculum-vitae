@@ -19,9 +19,7 @@
     }
   }
 
-  &--background-color {
-    color: $secondary-color;
-  }
+  &--background-color { color: $secondary-color; }
 
   &__image-container {
     flex-grow: 1;
@@ -47,19 +45,11 @@
     margin: 1rem 2rem;
   }
 
-  &__title {
-    border-bottom-color: $primary-color;
-    border-bottom-style: solid;
-    border-bottom-width: 6px;
-  }
-
   &__list {
     padding-left: 0;
     margin-left: 0;
     list-style-type: none;
   }
 
-  &__text {
-    font-weight: 500;
-  }
+  &__text { font-weight: 500; }
 }

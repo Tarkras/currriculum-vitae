@@ -1,0 +1,11 @@
+.information {
+  &__subsection { margin-bottom: 2rem; }
+
+  &__location-text { font-weight: 500; }
+
+  &__location-text,
+  &__list-text,
+  &__list-description {
+    margin-bottom: 0;
+  }
+}
