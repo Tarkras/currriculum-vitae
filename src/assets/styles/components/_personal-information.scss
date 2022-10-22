@@ -1,0 +1,65 @@
+.personal-information {
+  display: flex;
+  justify-content: space-between;
+  background-color: $secondary-color;
+
+  &--direction {
+    flex-direction: column;
+
+    @media (min-width: $lgMinWidth) {
+      flex-direction: row;
+    }
+  }
+
+  &--alignment {
+    text-align: center;
+
+    @media (min-width: $lgMinWidth) {
+      text-align: left;
+    }
+  }
+
+  &--background-color {
+    color: $secondary-color;
+  }
+
+  &__image-container {
+    flex-grow: 1;
+    margin-top: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+
+    @media (min-width: $lgMinWidth) {
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-left: 2rem;
+    }
+  }
+
+  &__image {
+    width: 120px;
+    height: 184px;
+    clip-path: ellipse();
+  }
+
+  &__description-container {
+    flex-grow: 2;
+    margin: 1rem 2rem;
+  }
+
+  &__title {
+    border-bottom-color: $primary-color;
+    border-bottom-style: solid;
+    border-bottom-width: 6px;
+  }
+
+  &__list {
+    padding-left: 0;
+    margin-left: 0;
+    list-style-type: none;
+  }
+
+  &__text {
+    font-weight: 500;
+  }
+}

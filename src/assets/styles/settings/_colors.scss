@@ -1,5 +1,13 @@
 @use "sass:color";
 
-$uoc-corporate: #000078;
-$uoc-masterbrand: #73edff;
-$uoc-bg: color.scale($uoc-masterbrand, $lightness: 70%);
+$black: #000;
+$grey: #aaa;
+$primary-color: #104c75;
+$secondary-color: #cee7f8;
+$main-bg: #fff;
+$body-bg: color.scale($grey, $lightness: 90%);
+// $uoc-corporate: #000078;
+// $uoc-masterbrand: #73edff;
+// $uoc-bg: color.scale($uoc-masterbrand, $lightness: 70%);
+
+// $primary-color: rgb(21, 100, 153);

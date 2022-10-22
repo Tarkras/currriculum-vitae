@@ -1,6 +1,5 @@
 h1,
-h2,
-h3 {
+h2 {
   margin-top: 1.5rem;
   margin-bottom: 1rem;
 }
@@ -16,6 +15,7 @@ h2 {
 }
 
 h3 {
+  margin-top: 1.2rem;
   font-size: 1.25rem;
   font-weight: 500;
 }
@@ -34,9 +34,13 @@ ul,
 ol { margin-bottom: 1rem; }
 
 ul,
-ol { margin-left: 1rem; }
+ol {
+  padding-left: 1rem;
+  margin-left: 1rem;
+}
 
 a {
+  color: $primary-color;
   text-decoration: none;
 
   &:hover {
@@ -44,14 +48,36 @@ a {
   }
 }
 
+i {
+  margin-right: .7rem;
+  color: $primary-color;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+body {
+  background-color: $body-bg;
+}
+
 main {
   padding: 1rem 0;
-  margin: 0 .9375rem;
+  margin: 1rem .9375rem;
 
   @media (min-width: $smMinWidth) {
     width: 80%;
     padding: 0;
-    margin: 0 auto;
+    padding: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: $main-bg;
+    border-color: $black;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 20px 40px -16px rgb(0 0 0 / 40%);
   }
 
   @media (min-width: $mdMinWidth) {
