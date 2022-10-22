@@ -1,0 +1,23 @@
+.skills {
+  display: flex;
+
+  @media (min-width: $lgMinWidth) {
+    gap: 1rem;
+  }
+
+  &--direction {
+    flex-direction: column;
+
+    @media (min-width: $lgMinWidth) {
+      flex-direction: row;
+    }
+  }
+
+  &__container {
+    flex-grow: 1;
+
+    @media (min-width: $lgMinWidth) {
+      width: 50%;
+    }
+  }
+}
