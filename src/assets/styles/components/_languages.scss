@@ -1,0 +1,31 @@
+.languages {
+  &__list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  &__list-item {
+    display: flex;
+    margin-top: 1rem;
+    gap: 1rem;
+  }
+
+  &__list-text {
+    flex-basis: 20%;
+  }
+
+  &__range-slider {
+    flex-grow: 2;
+    border-color: $primary-color;
+    border-style: solid;
+    border-radius: 1.25rem;
+    border-width: .125rem;
+    height: 1rem;
+    background-color: $secondary-color;
+
+    &--background-three-quarters {
+      background: linear-gradient(90deg, $secondary-color 75%, $white 25%);
+    }
+  }
+}

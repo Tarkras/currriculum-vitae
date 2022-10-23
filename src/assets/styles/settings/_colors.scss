@@ -1,8 +1,12 @@
+//
+// Variables for colors
+//
+
 @use "sass:color";
 
 $black: #000;
 $grey: #aaa;
+$white: #fff;
 $primary-color: #104c75;
 $secondary-color: #cee7f8;
-$main-bg: #fff;
 $body-bg: color.scale($grey, $lightness: 90%);
