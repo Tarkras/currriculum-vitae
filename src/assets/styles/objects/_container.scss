@@ -1,0 +1,24 @@
+.container {
+  margin-right: .9375rem;
+  margin-left: .9375rem;
+
+  @media (min-width: $smMinWidth) {
+    max-width: 540px;
+    padding: 0;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    margin-left: auto;
+  }
+
+  @media (min-width: $mdMinWidth) {
+    width: 740px;
+  }
+
+  @media (min-width: $lgMinWidth) {
+    max-width: 960px;
+  }
+
+  @media (min-width: $xlMinWidth) {
+    max-width: 1120px;
+  }
+}

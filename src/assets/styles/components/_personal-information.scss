@@ -1,25 +1,26 @@
 .personal-information {
-  display: flex;
-  justify-content: space-between;
   background-color: $secondary-color;
 
-  &--direction {
-    flex-direction: column;
+  &__container {
+    display: flex;
+    justify-content: space-between;
 
-    @media (min-width: $lgMinWidth) {
-      flex-direction: row;
+    &--direction {
+      flex-direction: column;
+
+      @media (min-width: $lgMinWidth) {
+        flex-direction: row;
+      }
+    }
+
+    &--alignment {
+      text-align: center;
+
+      @media (min-width: $lgMinWidth) {
+        text-align: left;
+      }
     }
   }
-
-  &--alignment {
-    text-align: center;
-
-    @media (min-width: $lgMinWidth) {
-      text-align: left;
-    }
-  }
-
-  &--background-color { color: $secondary-color; }
 
   &__image-container {
     flex-grow: 1;
@@ -42,11 +43,17 @@
 
   &__description-container {
     flex-grow: 2;
-    margin: 1rem 2rem;
+
+    @media (min-width: $lgMinWidth) {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      padding-left: 1rem;
+    }
   }
 
   &__list {
     padding-left: 0;
+    margin-bottom: 2rem;
     margin-left: 0;
     list-style-type: none;
   }
