@@ -4,6 +4,7 @@
 @import "settings/breakpoints";
 
 // 2. Tools
+@import "tools/list-tools";
 
 // 3. Generic
 @import "generic/normalize";
@@ -14,10 +15,12 @@
 // 5. Vendors
 @import "npm:@fortawesome/fontawesome-free/css/all.css";
 
+// 6. Vendors
 @import "objects/container";
 
 // 7. Components
 @import "components/personal-information";
-@import "components/card";
 @import "components/skills";
 @import "components/languages";
+@import "components/card";
+@import "components/tabs";

@@ -1,0 +1,20 @@
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  @include reset-list;
+
+  &__item {
+    padding: .3rem .5rem;
+    background-color: $white;
+    border-color: $primary-color;
+    border-style: solid;
+    border-width: .0625rem;
+    border-radius: 3rem;
+    box-shadow: .125rem .125rem .3125rem $black;
+  }
+
+  &__text {
+    font-weight: 500;
+  }
+}
