@@ -1,31 +1,35 @@
 .languages {
   &__list {
-    list-style-type: none;
     padding-left: 0;
     margin-left: 0;
+    list-style-type: none;
   }
 
   &__list-item {
     display: flex;
-    margin-top: 1rem;
     gap: 1rem;
+    margin-top: 1rem;
   }
 
   &__list-text {
     flex-basis: 20%;
   }
 
-  &__range-slider {
+  &__progress-bar {
     flex-grow: 2;
+    height: 1rem;
+    background-color: transparent;
     border-color: $primary-color;
     border-style: solid;
-    border-radius: 1.25rem;
     border-width: .125rem;
-    height: 1rem;
-    background-color: $secondary-color;
+    border-radius: 1.25rem;
 
-    &--background-three-quarters {
-      background: linear-gradient(90deg, $secondary-color 75%, $white 25%);
+    &--bg-three-quarters-filled {
+      background: linear-gradient(90deg, $progress-bar-first-quarter 0%, $progress-bar-first-quarter 25%, $progress-bar-second-quarter 25%, $progress-bar-second-quarter 50%, $progress-bar-third-quarter 50%, $progress-bar-third-quarter 75%, transparent 75%);
+    }
+
+    &--bg-full-filled {
+      background: linear-gradient(90deg, $progress-bar-first-quarter 0%, $progress-bar-first-quarter 25%, $progress-bar-second-quarter 25%, $progress-bar-second-quarter 50%, $progress-bar-third-quarter 50%, $progress-bar-third-quarter 75%, $progress-bar-fourth-quarter 75%);
     }
   }
 }

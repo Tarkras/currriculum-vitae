@@ -1,0 +1,13 @@
+.card {
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  background-color: $white;
+  border-radius: 1rem;
+  box-shadow: .125rem .125rem .3125rem $black;
+
+  &__location-text { font-weight: 500; }
+
+  &__location-text,
+  &__list-text,
+  &__list-description { margin-bottom: 0; }
+}
