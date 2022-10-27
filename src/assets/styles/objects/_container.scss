@@ -5,7 +5,7 @@
   margin-left: .9375rem;
 
   @media (min-width: $smMinWidth) {
-    max-width: 540px;
+    max-width: 33.75rem;
     padding: 0;
     margin-right: auto;
     margin-bottom: 2rem;
@@ -13,14 +13,14 @@
   }
 
   @media (min-width: $mdMinWidth) {
-    width: 740px;
+    width: 46.25rem;
   }
 
   @media (min-width: $lgMinWidth) {
-    max-width: 960px;
+    max-width: 60rem;
   }
 
   @media (min-width: $xlMinWidth) {
-    max-width: 1120px;
+    max-width: 70rem;
   }
 }

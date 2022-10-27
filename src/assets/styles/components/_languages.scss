@@ -25,11 +25,19 @@
     border-radius: 1.25rem;
 
     &--bg-three-quarters-filled {
-      background: linear-gradient(90deg, $progress-bar-first-quarter 0%, $progress-bar-first-quarter 25%, $progress-bar-second-quarter 25%, $progress-bar-second-quarter 50%, $progress-bar-third-quarter 50%, $progress-bar-third-quarter 75%, transparent 75%);
+      background: linear-gradient(90deg,
+      $progress-bar-first-quarter 0%, $progress-bar-first-quarter 25%,
+      $progress-bar-second-quarter 25%, $progress-bar-second-quarter 50%,
+      $progress-bar-third-quarter 50%, $progress-bar-third-quarter 75%,
+      transparent 75%);
     }
 
     &--bg-full-filled {
-      background: linear-gradient(90deg, $progress-bar-first-quarter 0%, $progress-bar-first-quarter 25%, $progress-bar-second-quarter 25%, $progress-bar-second-quarter 50%, $progress-bar-third-quarter 50%, $progress-bar-third-quarter 75%, $progress-bar-fourth-quarter 75%);
+      background: linear-gradient(90deg,
+      $progress-bar-first-quarter 0%, $progress-bar-first-quarter 25%,
+      $progress-bar-second-quarter 25%, $progress-bar-second-quarter 50%,
+      $progress-bar-third-quarter 50%, $progress-bar-third-quarter 75%,
+      $progress-bar-fourth-quarter 75%);
     }
   }
 }
