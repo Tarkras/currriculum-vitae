@@ -1,11 +1,11 @@
 // Wrapping element for all content in the page.
 
 .container {
-  margin-right: .9375rem;
-  margin-left: .9375rem;
+  margin-right: 15px;
+  margin-left: 15px;
 
   @media (min-width: $smMinWidth) {
-    max-width: 33.75rem;
+    max-width: 540px;
     padding: 0;
     margin-right: auto;
     margin-bottom: 2rem;
@@ -13,14 +13,14 @@
   }
 
   @media (min-width: $mdMinWidth) {
-    width: 46.25rem;
+    width: 740px;
   }
 
   @media (min-width: $lgMinWidth) {
-    max-width: 60rem;
+    max-width: 960px;
   }
 
   @media (min-width: $xlMinWidth) {
-    max-width: 70rem;
+    max-width: 1120px;
   }
 }
